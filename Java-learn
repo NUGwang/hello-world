@@ -25,3 +25,4 @@ System.out.println(string.replaceFirst("\\d","H"));//abcH23adb23456aa
 System.out.println(string.replaceAll("\\d","H"));//abcHHHadbHHHHHaa
 
 3. 循环体内，字符串的连接方式，使用 StringBuilder 的 append 方法进行扩展。而不要使用+。
+        如果在并发场景中进行字符串拼接的话，要使用StringBuffer来代替StringBuilder。
