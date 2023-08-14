@@ -5,3 +5,10 @@
 2. List and Set:
   List特点：元素有放入顺序，元素可重复 。
   Set特点：元素无放入顺序，元素不可重复。
+
+3.SynchronizedList和Vector最主要的区别
+  Vector同步方法，SynchronizedList同步代码块。
+  SynchronizedList有很好的扩展和兼容功能。他可以将所有的List的子类转成线程安全的类。
+  使用SynchronizedList的时候，进行遍历时要手动进行同步处理。 
+  SynchronizedList可以指定锁定的对象。
+
