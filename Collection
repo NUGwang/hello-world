@@ -15,3 +15,9 @@
 4.HashTable and HashMap：
   HashTable 中的方法是同步的，而HashMap中的方法在默认情况下是非同步的。
   
+5. HashMap：
+  HashMap的容量（capacity）是16，主要是可以使用按位与替代取模来提升hash的效率。
+  Hash 会选择大于该数字的第一个2的幂作为容量。
+  Hash 一般翻译做“散列”，也有直接音译为“哈希”的。
+  Hash 函数计算出的 Hash 值如果不同，那么输入值肯定也不同。但是，根据同一 Hash 函数计算出的 Hash 值如果相同，输入值也不一定相同。
+  
