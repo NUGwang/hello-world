@@ -1,3 +1,7 @@
 1.ArrayList and Vector 区别
   ArrayList是非同步实现的一个单线程下较为高效的数据结构。
   Vector是多线程环境下更为可靠的数据结构，所有方法都实现了同步。
+
+2. List and Set:
+  List特点：元素有放入顺序，元素可重复 。
+  Set特点：元素无放入顺序，元素不可重复。
