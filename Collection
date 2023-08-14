@@ -12,3 +12,6 @@
   使用SynchronizedList的时候，进行遍历时要手动进行同步处理。 
   SynchronizedList可以指定锁定的对象。
 
+4.HashTable and HashMap：
+  HashTable 中的方法是同步的，而HashMap中的方法在默认情况下是非同步的。
+  
