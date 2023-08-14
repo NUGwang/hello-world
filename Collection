@@ -22,3 +22,5 @@
   Hash 一般翻译做“散列”，也有直接音译为“哈希”的。
   Hash 函数计算出的 Hash 值如果不同，那么输入值肯定也不同。但是，根据同一 Hash 函数计算出的 Hash 值如果相同，输入值也不一定相同。
   
+6.  ConcurrentHashMap and HashMap：
+  如果你不需要线程安全，那么使用 HashMap，如果需要线程安全，那么使用 ConcurrentHashMap。HashTable已经被淘汰了，不要在新的代码中再使用它。
